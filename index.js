@@ -1,9 +1,9 @@
-var http = require('http');
-var serveStatic = require('serve-static');
-var express = require('express');
+const http = require('http');
+const serveStatic = require('serve-static');
+const express = require('express');
 
-var app = express();
-var port = 9012;
+let app = express();
+const port = 9012;
 
 
 app.use(serveStatic('public/doc', {
@@ -12,7 +12,7 @@ app.use(serveStatic('public/doc', {
 
 
 // Create server
-var server = http.createServer(app);
+let server = http.createServer(app);
 
 // Listen
 server.listen(port, function() {
