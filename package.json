@@ -1,0 +1,16 @@
+{
+  "name": "mydoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "strucoder <zdwloveschina@gmail.com> (http://www.strucoder.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gitbook-plugin-toggle-chapters": "0.0.3",
+    "serve-static": "^1.10.2"
+  }
+}
